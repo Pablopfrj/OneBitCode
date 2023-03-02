@@ -1,0 +1,9 @@
+Forms - <...value="Pesquisar"-> Muda o nome da caixinha no input submit > 
+for e id iguais criam uma associação
+name => é oq ele se refere
+placeholders -> é o q fica dentro da caixinha branca
+<form action="link pra onde é" method="get">
+<label for="query"></label>
+<input id="query" type="text" name="q" />
+<input type="submit" value="Pesquisar" />
+    </form>

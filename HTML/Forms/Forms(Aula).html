@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Procurar no Google</title>
+</head>
+<body>
+  <h2>Revisando algumas coisas de HTML</h2>
+  <form action="https://www.google.com/search">
+    <label for="q">O que deseja pesquisar?</label>
+    <br>
+    <br>
+    <input type="text" name="q" id="q" placeholder="Escreva aqui" autocomplete="off" required>
+    <br>
+    <br>
+    <input type="email" name="q" id="q" placeholder="Email" required autocomplete="on">
+    <br>
+    <br>
+    <label for="country">
+      <input type="text" name="pais de origem" id="country" value="Brasil" disabled>
+    </label>
+    <br>
+    <br>
+    <input list="Animais" placeholder="Animais">
+    <datalist id="Animais">
+      <option value="Girafa">
+      <option value="Bezerro">
+      <option value="Passáralho">
+      <option value="Ligre">
+      <option value="Lince">
+    </datalist>
+    <br>
+    <br>
+    <h3>------- Jogo Favorito -------</h3>
+    <input type="radio" name="fav_gam" id="gamer" value="CS">
+    <label for="gamer">Counter-Strike</label>
+    <input type="radio" name="fav_gam" id="gamer" value="Balotelis">
+    <label for="gamer">Valorant</label>
+    <input type="radio" name="fav_gam" id="gamer" value="Lol">
+    <label for="gamer">League of legends</label>
+    <br>
+    <br>
+    <input type="checkbox" name="fav_gamer" id="gamer" value="Cs">
+    <label for="gamer">Counter-Strike</label>
+    <input type="checkbox" name="fav_gam" id="gamer" value="Balotelis">
+    <label for="gamer">Valorant</label>
+    <input type="checkbox" name="fav_gam" id="gamer" value="Lol">
+    <label for="gamer">League of legends </label>
+    <br>
+    <br>
+    <input type="password" name="q" id="q" placeholder="Senha">
+    <br>
+    <br>
+    <label for="favcolor">Escolha uma cor</label>
+    <br>
+    <br>
+    <input type="color" name="favcolor" id="favcolor">
+    <br>
+    <br>
+    <label for="data">Um dia qualquer :</label>
+    <input type="date" id="data" name="data">
+    <br>
+    <br>
+    <input type="submit" name="q" id="q" value="Pesquisar" formtarget="_blank">
+    <input type="reset" value="Resetar">
+
+  </form>
+</body>
+</html>
