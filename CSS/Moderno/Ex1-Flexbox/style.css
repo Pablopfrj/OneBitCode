@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+.logo-rock{
+  width: 20px;
+}
+.logo-obc{
+  width: 200px;
+}
+.buttons{
+  display: flex;
+  gap: 10px 20px;  
+}
+.buttonheader:hover{
+  border-color:#ff0044;
+}
+.buttonheader{
+  padding: 10px 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-color: white;
+  color: white;
+}
